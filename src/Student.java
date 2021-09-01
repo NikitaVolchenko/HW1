@@ -51,44 +51,6 @@ public class Student {
         this.averageScore = averageScore;
     }
 
-    /*public Student[] higherThanAverageScore(Student[] obj, double averageScore) {
-        int count = 0;
-        for (int i = 0; i < obj.length; i++) {
-            if (obj[i].averageScore > averageScore) {
-                count++;
-            }
-        }
-
-        Student[] res = new Student[count];
-        int j = 0;
-        for (int i = 0; i < obj.length; i++) {
-            if (obj[i].averageScore > averageScore) {
-                res[j] = obj[i];
-                j++;
-            }
-        }
-        return res;
-    }
-
-    public Student[] StudentsOfThisFaculty(Student[] obj, String nameOfTheFaculty) {
-        int count = 0;
-        for (int i = 0; i < obj.length; i++) {
-            if (obj[i].nameOfTheFaculty == nameOfTheFaculty) {
-                count++;
-            }
-        }
-
-        Student[] res = new Student[count];
-        int j = 0;
-        for (int i = 0; i < obj.length; i++) {
-            if (obj[i].nameOfTheFaculty == nameOfTheFaculty) {
-                res[j] = obj[i];
-                j++;
-            }
-        }
-        return res;
-    }*/
-
     @Override
     public String toString() {
         String newLine = System.getProperty("line.separator");

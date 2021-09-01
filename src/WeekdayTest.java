@@ -7,10 +7,10 @@ public class WeekdayTest {
     @Test
     public void test() {
         Weekday weekday = Weekday.WEEKEND;
-        System.out.println(weekday.StatusOfTheDay());
+        assertEquals("Today you can rest", weekday.StatusOfTheDay());
 
         weekday = Weekday.WORKDAY;
-        System.out.println(weekday.StatusOfTheDay());
+        assertEquals("You're working today", weekday.StatusOfTheDay());
     }
 
 }
